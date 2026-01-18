@@ -75,7 +75,11 @@ void Game::playTheGame(Matrix& matrix) {
 			exit(0);
 		}
 
-		system("cls");
+		#ifdef _WIN32
+			system("cls");    // Windows
+		#else
+			system("clear");  // Linux / macOS
+		#endif
 
 		if (moveRobot(matrix, move)) {
 			if (!moveMinotaur(matrix)) {
