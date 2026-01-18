@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 4.0)
-project(MazeGame)
+cmake_minimum_required(VERSION 3.20)
+project(MazeGame LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(MazeGame main.cpp)
+add_subdirectory(libs/matrix)
+add_subdirectory(app)
