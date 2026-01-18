@@ -1,29 +1,31 @@
 # MazeGame
 
-MazeGame je konzolna C++ igra u kojoj igrač upravlja robotom kroz generisani lavirint i pokušava da dođe do izlaza koristeći specijalne efekte.
+MazeGame je konzolna C++ igra u kojoj igrač upravlja robotom kroz generisani lavirint i pokušava da dođe do izlaza koristeći različite specijalne efekte.
 
-Projekat je rađen u CLion-u i koristi CMake kao build sistem.
+Projekat je razvijen u CLion-u i koristi CMake kao build sistem.
 
-Program se prvo builda (Debug ili Release), nakon čega CLion generiše odgovarajući build direktorijum
-(`cmake-build-debug/` ili `cmake-build-release/`).
+Program se najprije builda (Debug ili Release), nakon čega CLion automatski generiše odgovarajući build direktorijum (`cmake-build-debug/` ili `cmake-build-release/`).
 
-Za pokretanje programa potrebno je pozicionirati se u `app` folder unutar build direktorijuma, npr.: `cd cmake-build-debug/app`
+Za pokretanje programa potrebno je pozicionirati se u `app` direktorijum unutar build foldera, na primjer:
 
-Program se pokreće iz terminala i zahtijeva argumente:
+`cd cmake-build-debug/app`
+
+Program se zatim pokreće iz terminala i zahtijeva sljedeće argumente:
 
 `./MazeGame <rows> <cols> <numOfItems>`
 
-Primjer:
+Primjer pokretanja:
 
 `./MazeGame 25 40 20`
 
-Ako se program pokrene bez argumenata, ispisuje se poruka:
+Ako se program pokrene bez odgovarajućih argumenata, ispisuje se poruka:
 
-`Exception:<program> <rows> <cols> <numOfItems>`
+`Exception: <program> <rows> <cols> <numOfItems>`
 
-Kontrole u igri:
-w – gore  
-s – dolje  
-a – lijevo  
-d – desno  
-q – izlaz
+## Kontrole
+
+- `w` – kretanje gore
+- `s` – kretanje dolje
+- `a` – kretanje lijevo
+- `d` – kretanje desno
+- `q` – izlaz iz igre
