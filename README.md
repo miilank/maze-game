@@ -10,7 +10,7 @@ Za pokretanje programa potrebno je pozicionirati se u `app` direktorijum unutar 
 
 `cd cmake-build-debug/app`
 
-Program se zatim pokreće iz terminala i zahtijeva sljedeće argumente:
+Nakon uspješnog buildovanja, u `app` direktorijumu se generiše izvršna datoteka `MazeGame`. Program se zatim pokreće iz terminala i zahtijeva sljedeće argumente:
 
 `./MazeGame <rows> <cols> <numOfItems>`
 
