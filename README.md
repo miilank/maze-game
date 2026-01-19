@@ -2,7 +2,7 @@
 
 MazeGame je konzolna C++ igra u kojoj igrač upravlja robotom kroz generisani lavirint i pokušava da dođe do izlaza koristeći različite specijalne efekte.
 
-Projekat je razvijen u CLion-u i koristi CMake kao build sistem.
+Projekat je razvijen u CLion-u i koristi CMake kao build sistem, a testiran je na Linux operativnom sistemu.
 
 Program se najprije builda (Debug ili Release), nakon čega CLion automatski generiše odgovarajući build direktorijum (`cmake-build-debug/` ili `cmake-build-release/`).
 
