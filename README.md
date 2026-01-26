@@ -1,6 +1,6 @@
 # MazeGame
 
-MazeGame je konzolna C++ igra u kojoj igrač upravlja robotom kroz generisani lavirint i pokušava da dođe do izlaza izbjegavajući minotaura koristeći različite specijalne efekte.
+MazeGame je konzolna C++ igra u kojoj igrač upravlja robotom kroz generisani lavirint i pokušava da dođe do izlaza izbjegavajući minotaura i koristeći različite specijalne efekte.
 
 Projekat je razvijen u CLion-u i koristi CMake kao build sistem, a testiran je na Linux operativnom sistemu.
 
